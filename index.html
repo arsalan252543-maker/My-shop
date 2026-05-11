@@ -1,164 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-     <title>Pakija Shringar Palace</title>þ
-
-  <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family:Arial, sans-serif;
-    }
-
-    body{
-      background:#f7f7f7;
-      color:#222;
-    }
-
-    header{
-      background:black;
-      color:white;
-      padding:18px;
-      text-align:center;
-      font-size:28px;
-      font-weight:bold;
-    }
-
-    .hero{
-      height:90vh;
-      background:url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200') center/cover;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      text-align:center;
-      color:white;
-    }
-
-    .hero-content{
-      background:rgba(0,0,0,0.5);
-      padding:30px;
-      border-radius:15px;
-    }
-
-    .hero h1{
-      font-size:45px;
-      margin-bottom:15px;
-    }
-
-    .hero p{
-      font-size:18px;
-      margin-bottom:20px;
-    }
-
-    .btn{
-      background:#ff4d8d;
-      color:white;
-      padding:12px 25px;
-      border:none;
-      border-radius:30px;
-      text-decoration:none;
-      font-size:18px;
-    }
-
-    .products{
-      padding:50px 20px;
-      text-align:center;
-    }
-
-    .products h2{
-      font-size:35px;
-      margin-bottom:30px;
-    }
-
-    .product-box{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:20px;
-    }
-
-    .card{
-      background:white;
-      border-radius:15px;
-      overflow:hidden;
-      box-shadow:0 5px 15px rgba(0,0,0,0.1);
-      transition:0.3s;
-    }
-
-    .card:hover{
-      transform:translateY(-8px);
-    }
-
-    .card img{
-      width:100%;
-      height:250px;
-      object-fit:cover;
-    }
-
-    .card h3{
-      margin:15px 0 10px;
-    }
-
-    .card p{
-      padding:0 15px 20px;
-      color:#555;
-    }
-
-    footer{
-      background:black;
-      color:white;
-      text-align:center;
-      padding:15px;
-      margin-top:40px;
-    }
-  </style>
-</head>
-
-<body>
-
-<header>
-  pakija shringar palace 
-</header>
-
-<section class="hero">
-  <div class="hero-content">
-    <h1>Beauty Starts Here</h1>
-    <p>Best Makeup & Cosmetic Collection</p>
-    <a href="https://wa.me/918780576603?text=Hello%20Pakija%20Shringar%20Palace%2C%20mujhe%20order%20karna%20hai%20%F0%9F%98%8A" class="btn">Shop Now</a>
-  </div>
-</section>
-
-<section class="products">
-  <h2>Our Products</h2>
-
-  <div class="product-box">
-
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=800">
-      <h3>Lipstick</h3>
-      <p>Premium long lasting lipstick collection.</p>
-    </div>
-
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1526045478516-99145907023c?q=80&w=800">
-      <h3>Face Cream</h3>
-      <p>Glow skin cream for daily care.</p>
-    </div>
-
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?q=80&w=800">
-      <h3>Perfume</h3>
-      <p>Luxury fragrance for men & women.</p>
-    </div>
-
-  </div>
-</section>
-
-<footer>
-  © 2026    <title>Pakija Shringar Palace</title>
-</footer>
-
-</body>
-  </html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakija Shringar Palace - Beauty & General Store</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', Arial, sans-serif; }
+        body { background: #fff; }
+        .top-bar { background: #E91E63; color: white; padding: 8px 5%; font-size: 14px; display: flex; justify-content: space-between; }
+        .top-bar a { color: white; text-decoration: none; margin-left: 15px; }
+        
+        header { padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .logo { font-size: 24px; font-weight: 700; color: #E91E63; }
+        .logo span { color: #333; font-size: 18px; display: block; }
+        .search-box { flex: 1; max-width: 400px; margin: 0 30px; position: relative; }
+        .search-box input { width: 100%; padding: 10px 40px 10px 15px; border: 2px solid #eee; border-radius: 25px; }
+        .search-box button { position: absolute; right: 5px; top: 5px; background: #E91E63; border: none; color: white; padding: 6px 12px; border-radius: 20px; cursor: pointer; }
+        .header-right { display: flex; gap: 20px; align-items: center; }
+        .whatsapp-btn { background: #E91E63; color: white; padding: 10px 20px; border-radius: 25px; text-decoration: none; font-weight: 600; }
+        
+        nav { background: #f8f8f8; padding: 0 5%; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li a { display: block; padding: 15px 20px; text-decoration: none; color: #333; font-weight: 500; }
+        nav ul li a.active, nav ul li a:hover { background: #E91E63; color: white; }
+        
+        .hero { background: linear-gradient(135deg, #ffeef5 0%, #fff 100%); padding: 40px 5%; display: flex; align-items: center; justify-content: space-between; }
+        .hero-text { flex: 1; }
+        .hero-text h1 { font-size: 42px; line-height: 1.2; margin-bottom: 15px; }
+        .hero-text h1 span { color: #E91E63; }
+        .hero-text p { color: #666; margin-bottom: 25px; font-size: 
